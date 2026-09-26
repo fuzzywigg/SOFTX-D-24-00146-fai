@@ -107,7 +107,10 @@ build
 framework/contrib/libtorch
 test.cache
 
-# Allow certain files in gold directories
+# Allow Cursor Cloud Agent environment config (repo-managed)
+!.cursor/environment.json
+
+# Allow certain files in gold folders
 !**/gold/*.e
 !**/gold/*.e-s*
 !**/gold/*.csv
