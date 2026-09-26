@@ -110,7 +110,7 @@ test.cache
 # Allow Cursor Cloud Agent environment config (repo-managed)
 !.cursor/environment.json
 
-# Allow certain files in gold folders
+# Allow certain files in gold directories
 !**/gold/*.e
 !**/gold/*.e-s*
 !**/gold/*.csv
